@@ -1,20 +1,7 @@
-// @import "null.scss";
 
-// @mixin flexible () {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   }
-
-// @mixin absolute-centering() {
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%,-50%);
-// }
 
 .wrapper {
-  width: 800px;
+  width: 1200px;
   margin: 30px auto;
   font-size: 20px;
 }
@@ -90,4 +77,8 @@ p {
   .long-term-forecast-card {
     border: 1px solid black;
   }
+}
+
+.d-none {
+  display: none;
 }
